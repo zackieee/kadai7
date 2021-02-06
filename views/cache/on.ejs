@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>Random Number : <%= number %></p>
+    <div>
+      <input type="button" value="戻る" onclick="history.back()"/>
+      <input type="button" value="同一頁遷移" onclick="location.href='http://localhost:3000/cache/on'"/>
+      <input type="button" value="再読込" onclick="location.reload()"/>
+    </div>
+    <br>
+    <div>
+      システム内画像<br>
+      <img src='/images/hamuster.png'>  
+    </div>
+  </body>
+</html>

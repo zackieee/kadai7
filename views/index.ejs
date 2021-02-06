@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <!-- <script src="/main.js"></script> -->
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <div>
+      <input type="button" value="Max-Age600" onclick="location.href='http://localhost:3000/cache/on'"/>
+      <input type="button" value="Max-Age0" onclick="location.href='http://localhost:3000/cache/max-age0'"/>
+      <input type="button" value="No-Cache" onclick="location.href='http://localhost:3000/cache/no-cache'"/>
+      <input type="button" value="No-Store" onclick="location.href='http://localhost:3000/cache/no-store'"/> 
+    </div>
+  </body>
+</html>
